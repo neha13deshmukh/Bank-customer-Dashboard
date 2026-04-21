@@ -1,48 +1,85 @@
-# 🏦 Bank Customer Analysis Dashboard | Power BI
+# 🏦 Bank Customer Churn Analysis | Power BI
 
-📌 End-to-end customer churn and retention analysis using Power BI.
-
----
-
-## 🚀 Problem Statement  
-This project focuses on analyzing customer churn, activity status, and retention trends in a banking dataset.  
-The goal is to identify patterns behind customer exits and help improve retention strategies.
+📊 Analyzing customer behavior to identify churn patterns and improve retention strategies
 
 ---
 
-## 📊 Dataset  
-The dataset includes:
-- Customer demographics  
-- Activity status (Active / Inactive)  
-- Credit card ownership  
-- Customer exit (churn) data  
-- Time-based (monthly/yearly) records  
+## 🎯 Business Problem  
+
+Customer churn is a critical challenge in the banking industry.  
+
+Banks often lose customers without clearly understanding the reasons behind their exit, which leads to:
+- Revenue loss  
+- Higher cost of acquiring new customers  
+- Ineffective retention strategies  
+
+The objective of this project is to analyze customer data and identify key factors driving churn, enabling better decision-making and improved customer retention.
+
+---
+
+## 🧩 Approach  
+
+- Cleaned and transformed raw data using Power Query  
+- Built a structured data model for analysis  
+- Created KPIs to track:
+  - Total customers  
+  - Active vs Inactive customers  
+  - Exit (churn) customers  
+  - Retained customers  
+- Performed segmented analysis based on:
+  - Time (monthly & yearly trends)  
+  - Customer activity status  
+  - Gender  
+  - Credit card ownership  
 
 ---
 
 ## 🔍 Key Insights  
-- A noticeable portion of customers are inactive, increasing potential churn risk  
-- Customer exits peak during certain months, indicating seasonal churn patterns  
-- Female customers contribute slightly more to total exits compared to males  
-- A large percentage of customers hold credit cards, which may influence engagement  
+
+- Inactive customers are the most at-risk group, showing a higher tendency to churn  
+- Customer churn is not random — certain months show noticeable spikes in exits  
+- Segmented analysis provides deeper insights compared to overall churn numbers  
+- High credit card ownership does not guarantee retention, indicating that usage matters more than ownership  
+- Slight variation in churn across gender categories suggests scope for deeper analysis  
 
 ---
 
 ## 💡 Business Recommendations  
-- Focus on converting inactive customers to active users  
-- Run targeted retention campaigns during high churn months  
-- Analyze high-risk segments (inactive + exiting customers)  
-- Improve engagement strategies for different customer groups  
+
+- Focus on engaging inactive customers to reduce churn risk  
+- Plan targeted retention campaigns during high churn periods  
+- Track customer activity levels as an early indicator of churn  
+- Analyze product usage patterns instead of just ownership  
+- Identify and monitor high-risk customer segments  
 
 ---
 
-## 🛠️ Tools Used
+## 🧠 What I Learned  
 
-- Power BI Desktop – Dashboard design and report development
-- Power Query Editor (PQE) – Data cleaning, transformation, and preprocessing
-- DAX (Data Analysis Expressions) – Creation of calculated measures and KPIs
-- Data Modeling – Establishing table relationships to enable dynamic filtering and aggregation
-  
+- Churn analysis is driven more by customer behavior than just numbers  
+- Breaking data into segments leads to more actionable insights  
+- Data visualization should focus on storytelling, not just charts  
+- Initially focused on total churn, but deeper analysis revealed inactivity as a key driver  
+
+---
+
+## 🛠️ Tools & Technologies  
+
+- Power BI Desktop – Dashboard development  
+- Power Query Editor – Data cleaning and transformation  
+- DAX – Calculated measures and KPIs  
+- Data Modeling – Building relationships for analysis  
+
+---
+
+## 📊 Dashboard Features  
+
+- Customer KPIs (Total, Active, Inactive, Exit, Retained)  
+- Monthly & yearly churn trend analysis  
+- Gender-based churn distribution  
+- Credit card ownership insights  
+- Interactive filters for detailed analysis  
+
 ---
 
 ## File Formats 
@@ -50,15 +87,6 @@ The dataset includes:
 - .pbix – Development file (includes data, model, and visuals)
 - .pbit – Template file (structure without data for reuse)
 
----
-
-## 📈 Dashboard Highlights  
-- Customer KPIs (Total, Active, Inactive, Exit, Retained)  
-- Churn trend analysis (monthly & yearly)  
-- Gender-based churn distribution  
-- Credit card ownership analysis  
-- Interactive filters for deeper insights
-  
 ---
 
 ## Dashboard Preview 
